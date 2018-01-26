@@ -42,13 +42,13 @@ d3 = d4 - d2
 d5 = d6 - x[0,1]
 
 m0 = multiply(d0,d[0])
-m1 = d1*d[1]
-m2 = d2*d[2]
-m3 = d3*d[3]
+m1 = multiply(d1,d[1])
+m2 =  multiply(d2,d[2])
+m3 =  multiply(d3,d[3])
 m4 = multiply(d4,d[4])
-m5 = d5*d[5]
-m6 = d6*d[6]
-
+m5 =  multiply(d5,d[5])
+m6 =  multiply(d6,d[6])
+print(d1,d[1])
 # mnożenia
 y[0,0] = m0 + m4
 y[0,1] = m0 + m1 + m2 + m6
